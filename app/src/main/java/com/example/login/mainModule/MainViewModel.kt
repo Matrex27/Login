@@ -1,14 +1,12 @@
 package com.example.login.mainModule
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.login.common.RequestLogin
-import com.example.login.common.ResponseLogin
+import com.example.login.common.entities.RequestLogin
+import com.example.login.common.entities.ResponseLogin
 import kotlinx.coroutines.launch
-import retrofit2.HttpException
 import retrofit2.Response
 
 class MainViewModel: ViewModel() {

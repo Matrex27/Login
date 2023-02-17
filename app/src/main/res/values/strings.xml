@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="login_witch_mode">Login</string>
+    <string name="register_switch_mode">Register</string>
+    <string name="email_hint_et">Email</string>
+    <string name="email_password_et">Password</string>
 </resources>

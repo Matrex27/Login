@@ -1,8 +1,8 @@
 package com.example.login.mainModule
 
-import com.example.login.common.LoginService
-import com.example.login.common.RequestLogin
-import com.example.login.common.ResponseLogin
+import com.example.login.common.remoteDatabase.LoginService
+import com.example.login.common.entities.RequestLogin
+import com.example.login.common.entities.ResponseLogin
 import com.example.login.common.utils.Constants
 import retrofit2.Response
 import retrofit2.Retrofit

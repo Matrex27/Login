@@ -1,7 +1,8 @@
-package com.example.login.common
+package com.example.login.common.remoteDatabase
 
+import com.example.login.common.entities.RequestLogin
+import com.example.login.common.entities.ResponseLogin
 import com.example.login.common.utils.Constants
-import retrofit2.Call
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST
