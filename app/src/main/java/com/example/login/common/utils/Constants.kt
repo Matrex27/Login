@@ -7,6 +7,7 @@ object Constants {
 
     const val LOGIN_PATH = "/api/login"
     const val REGISTER_PATH = "/api/register"
+    const val GET_USERS_PATH = "/api/users?page=2"
 
 
 }

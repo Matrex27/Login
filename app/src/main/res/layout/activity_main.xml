@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mainModule.MainActivity">
@@ -59,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="40dp"
-        app:endIconMode="clear_text"
+        app:endIconMode="password_toggle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailTil"
@@ -70,6 +71,7 @@
             android:id="@+id/passwordEt"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:inputType="textPassword"
             android:hint="@string/email_password_et"
             android:fontFamily="@font/lilitaoneregular"
 
@@ -88,14 +90,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:hint="TEXTO 2"
-        app:layout_constraintTop_toBottomOf="@id/loginBtn"
-        app:layout_constraintStart_toStartOf="@id/loginBtn"
-        android:fontFamily="@font/lilitaoneregular"
-        />
+
+
 
 
 
